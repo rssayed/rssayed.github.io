@@ -29,6 +29,10 @@
   ul {
     list-style: none;
   }
+
+  ol {
+    margin: 0 0 10px 0;
+  }
   
   img {
     max-width: 50%;
