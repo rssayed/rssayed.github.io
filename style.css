@@ -67,8 +67,6 @@
   #headshot {
     display: block;
     margin: 0 auto 40px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
   }
   
