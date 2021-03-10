@@ -1,0 +1,111 @@
+ html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.6;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  h1,h2,h3,h4,h5,h6,
+  p,ol,ul {
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Merriweather', serif;
+  }
+  
+  ul,ol {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /*Styling*/
+  p {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: normal;
+  }
+  
+  a {
+    color: blueviolet;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+  }
+  
+  hr {
+    margin: 30px 0;
+  }
+  
+  #profile-pic {
+    display: block;
+    margin: 0 auto 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  .content {
+    width: 600px;
+    margin: 40px auto;
+    max-width: 100%;
+  }
+  
+  .content .lead {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  .content .quote {
+    padding: 30px;
+    border: 1px solid #ccc;
+    background: #fbfbfb;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+  }
+  .content .quote p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .content .small {
+    font-size: 13px;
+  }
+  
+  .content footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .content #latest-commit {
+    font-size: 13px;
+    margin-top: 20px;
+  }  
