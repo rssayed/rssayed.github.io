@@ -83,19 +83,6 @@
     line-height: 30px;
   }
   
-  .content .quote {
-    padding: 30px;
-    border: 1px solid #ccc;
-    background: #fbfbfb;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-  }
-  .content .quote p {
-    font-style: italic;
-    margin-bottom: 10px;
-  }
-  
   .content .small {
     font-size: 13px;
   }
